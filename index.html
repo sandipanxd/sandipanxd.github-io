@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandipan Biswas</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("15FgQZQbYRIAuvLJZ");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">.folio_<span>sandy</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Sandipan Biswas</div>
+        <div class="text-3">I'm a <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/Sandy_2027.jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Sandipan Biswas and I'm a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            
+I am an experienced Android and Web Developer with an eye for detail and a passion for creating innovative, user-friendly applications. My skills include developing mobile applications for Android using Kotlin, Dart and Flutter and web-based applications using HTML, CSS, JavaScript. I strive to create the best user experiences possible and I am always looking for ways to improve the user experience of my applications. I am well-versed in debugging mobile and web applications, and have strong problem-solving skills. I am also knowledgeable in modern development practices such as Agile and Scrum.
+          </p>
+          <a href="{{GOOGLE DRIVE LINK FOR RESUME}}">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Services</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">Application Development</div>
+            <p>
+              I'm an experienced frontend App Developer with a passion for creating innovative and user-friendly mobile applications. I have been developing mobile applications for over 2 years now, and I specialize in creating apps with a strong focus on user experience and intuitive UI design. I take pride in my ability to create apps that are easy to use and look great. I'm confident that I can bring your ideas to life and help you create a successful mobile app.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Web Development</div>
+            <p>
+              I am an experienced frontend Web developer with a passion for creating beautiful and engaging websites. I specialize in developing custom websites and applications that are easy to use and visually stunning. I have experience working with HTML, CSS, JavaScript among other web technologies. With my extensive knowledge of web development, I can create websites that are both secure and effective. I am committed to creating the best possible experience for my clients and their users.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">{{SKILL 3}}</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quod in ea, molestiae commodi necessitatibus optio, placeat eos impedit temporibus distinctio maxime illum saepe assumenda vero culpa atque et! Magnam eos eaque error voluptatem pariatur quae. Molestiae aperiam labore enim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+          
+I have approximately 2 years of experience working with HTML, CSS, and JavaScript. I have been able to create dynamic websites with a sleek and modern design. I am experienced in both front-end development, and have an excellent understanding of web development principles.
+
+<p>I also have experience with Kotlin, a modern programming language for Android development. I have used it to build several apps, and am confident in my ability to use it to create high-quality Android applications.</p>
+
+<p>Furthermore, I have been working with Flutter and Dart from the past year. I have used these two powerful tools to create responsive and dynamic user interfaces for mobile applications. I have a solid understanding of the fundamentals of Flutter and Dart, and am skilled in using them to create engaging user experiences.
+
+Overall, I am confident in my abilities to create high-quality websites and applications using a variety of programming languages and tools.</p>
+          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-html.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-kotlin.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-dart.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3"> To get in touch, you can mail me at my given email address, I am also in every social media platform, else you can directly contact me using message me section.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Sandipan Biswas</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">504 Mallik Para, North Barrackpore(M), North 24 Parganas, Pin - 743144</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">sandipanbiswas053@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span>Created By <a href="#">Sandipan Biswas</a> | Thank you for visiting | 2023 |  <a href="https://www.linkedin.com/in/abhishek-oraon-46bb69200/">Linkedin</a> | <a href="https://www.instagram.com/abhishek_oraon_/">Instagram</a></span>
+</footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
