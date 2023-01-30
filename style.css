@@ -256,7 +256,7 @@ section .title::after{
  .about .about-content .right a{
     display: inline-block;
     background: none;
-    color: #1044b4;
+    color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -266,7 +266,7 @@ section .title::after{
     transition: all 0.3s ease;
  }
  .about .about-content .right a:hover{
-     color: white;
+     color: #1044b4;
      background:none;
  }
  
@@ -508,7 +508,6 @@ section .title::after{
 .contact .right form .textarea{
    height: 80px;
    width: 100%;
-
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -556,7 +555,12 @@ section .title::after{
 }
 
 #jkl {
-    width: auto;
+    width: 200%;
+    padding: 25%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 /* footer styling */
@@ -569,6 +573,7 @@ section .title::after{
     padding: 20px 23px;
     color: white;
     width: 100%;
+    height:auto;
     /* align-items: center; */
     /* display: flex; */
 }
