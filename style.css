@@ -555,11 +555,22 @@ section .title::after{
     color: #1044b4;
 }
 
+#jkl {
+    width: auto;
+}
+
 /* footer styling */
     footer{
+        text-align: center;
+        position: absolute;
+        
     background: url("images/bar.jpg") ;
+    max-width: 80rem;
     padding: 20px 23px;
     color: white;
+    width: 100%;
+    /* align-items: center; */
+    /* display: flex; */
 }
 
 footer .text-center {
