@@ -1,2 +1,2 @@
 # sandipanxd.github-io
-A Personal Portfolio of me
+Sandipan Biswas' Personal Portfolio
